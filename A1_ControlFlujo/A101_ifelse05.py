@@ -1,20 +1,15 @@
 """ Manejo de IFs anidados y else
 
-    if condicion:
-        if otra_condicion_
-            haz esto
-        elif otra_condicion:
-            has esto
-        else:
-            has esto
-    else:
-        haz esto
-
+    ESTO ES LO YA RESULTO:
+    
     Siguiendo el ejemplo anterior.
     * Si la persona mide 120 cm o mas puede usar la montaña rusa
     * si cumple lo anterior evaluamnos si tiene 18 años paga $12
       si es menor de 18 paga $7, pero si es menor de 12 paga $5
       <12 $5   12 - 18 $ 7   >18 $12
+      
+    AHJORA QUEREMOS LO SIGUIENTE:
+    Si el usuario quiere una fotografía se le cobran $3 extra
 """
 print("Bienvenido a la montaña rusa")
 altura = int(input("cual es tu altura en centimetros? "))
@@ -30,7 +25,11 @@ if altura >= 120:
         monto_a_pagar = 5
     else:
         monto_a_pagar = 7
+        
+    quiere_foto = input("Quiere una fotografia (s/n)? ")
+    if quiere_foto == "s":
+        monto_a_pagar += 3
+        
+    print(f"El monto total a pagar es {monto_a_pagar}")
 else:
     print("Lo siento debes ser mas alto para poder subir a la montaña rusa")
-    
-print(f"Por tener {edad} debes pagar {monto_a_pagar}")

@@ -5,3 +5,8 @@
 ## Objetivo:
 Estos código van desde un inicio hasta un nivel intermedio de programacion
 usando Python
+
+## ¿Qué es la programación?
+La programación es como un exámen con libro abierto, no es necesario
+memorizar nada, basta con consultarlo en el libro para recordar su 
+funcionamiento.

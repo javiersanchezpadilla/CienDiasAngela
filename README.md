@@ -10,3 +10,8 @@ usando Python
 La programación es como un exámen con libro abierto, no es necesario
 memorizar nada, basta con consultarlo en el libro para recordar su 
 funcionamiento.
+
+## Instrucciones para subir la información
+git remote add origin https://github.com/javiersanchezpadilla/CienDiasAngela.git
+git branch -M main
+git push -u origin main

@@ -1,0 +1,33 @@
+RECURSOS PARA EL APRENDIZAJE
+
+Direccion de las funciones interconstruidas:
+    https://docs.python.org/3/library/functions.html 
+
+Aprendiendo Python con REEBORG
+    https://reeborg.ca/docs/en/# 
+
+
+Es importante entender el concepto de la indentación en la definicion de 
+las funciones (entender el concepto d elos bloques).
+    def mi_funcion():
+        if sky == "claro":
+            print('azul')
+        elif sky == 'nublado':
+            print('gris')
+        print('Hola a todos')
+    print('Hola GENERAL')
+
+Diferencias entre el ciclo FOR yel ciclo WHILE
+
+for item in lista_de_articulos:
+    haz algo con cada item
+
+for numero in range(a, b):
+    print(numero)
+
+while condicion_sea_cierta:
+    haz algo
+    
+
+
+
